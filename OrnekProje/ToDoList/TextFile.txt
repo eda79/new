@@ -1,0 +1,3 @@
+﻿Scaffold-DbContext "Server=.;Database=Northwind;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+--appsettings.json içerisinde   "DisableMigrations": true kodu kullanınca program.cs de hata aldım veritabanına izin verilmediği için erişilemiyor diye.
+--customer.Address='string'
